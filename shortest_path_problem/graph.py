@@ -1,3 +1,4 @@
+#定义节点，包括名字，可以执行的动作-执行该动作的一次cost，和所处于的level (没有用上)
 class node():
     def __init__(self, name, out, cost, level):
         self.name = name
