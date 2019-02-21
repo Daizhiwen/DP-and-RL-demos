@@ -48,7 +48,7 @@ def get_reward(s):
     if s[0] != 2 or s[1] != 5:
         return -5
     else:
-        return 100
+        return 0
 
 if __name__ == "__main__":
     print(maze)
